@@ -1,0 +1,86 @@
+<SCRIPT language=JavaScript> 
+ 
+function password() { 
+ 
+var testV = 1; 
+ 
+var pass1 = prompt('请输入密码，密码请加微信：lunlunc666，在朋友圈置顶！在朋友圈置顶！有任何问题私信我，不要发问号！有任何问题私信我，不要发问号！:',''); 
+ 
+while (testV < 3) { 
+ 
+if (!pass1) 
+ 
+history.go(-1); 
+ 
+if (pass1 == "yyyy") { 
+ 
+alert('密码正确!'); 
+ 
+break; 
+ 
+} 
+ 
+testV+=-1; 
+ 
+var pass1 = prompt('密码错误!请重新输入:'); 
+ 
+} 
+ 
+if (pass1!="password" & testV ==3) 
+ 
+history.go(-1); 
+ 
+return " "; 
+ 
+} 
+ 
+document.write(password()); 
+ 
+</SCRIPT>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+            border: 5px solid #f0f0f0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        p {
+            text-align: center;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            color: #333333;
+            margin: 10px;
+        }
+    </style>
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>旗下软件密码发布</title>  
+</head>  
+<body>  
+  
+<h1 style="color: red;">编号0001软件，密码yyyy</h1>  
+<p style="color: blue;">这是一段蓝色的段落文本。</p>  
+  
+<div style="color: green;">  
+    <h2>这是绿色的二级标题</h2>  
+    <p>这也是一段绿色的段落文本。</p>  
+</div>  
+  
+<p style="color: purple;">这是另一段紫色的段落文本。</p>  
+  
+<!-- 使用类来设置颜色，这样可以在多个元素上复用相同的样式 -->  
+<style>  
+    .yellow-text {  
+        color: yellow;  
+    }  
+</style>  
+  
+<p class="yellow-text">这是使用类设置的黄色文本。</p>  
+  
+</body>  
+</html>
